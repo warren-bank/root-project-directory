@@ -3,11 +3,11 @@ const path = require('path')
 const absolute = ((cwd) => {
   let {sep} = path
   let up1   = `${sep}..`
-  let upN   = (cfg => {let N = (typeof cfg !== undefined) ? parseInt(cfg, 10) : 2; return up1.repeat(N)})(process.env.root_project_directory_script_depth)
+  let upN   = (cfg => {let N = (typeof cfg !== 'undefined') ? parseInt(cfg, 10) : 3; return up1.repeat(N)})(process.env.root_project_directory_script_depth)
   let root  = `${cwd}${upN}`
 
   /*
-   * in:  /path/to/project-directory/node_modules/root-project-directory/../..
+   * in:  /path/to/project-directory/node_modules/@warren-bank/root-project-directory/../../..
    * out: /path/to/project-directory
    */
   root = path.normalize(root)

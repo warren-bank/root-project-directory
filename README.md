@@ -35,3 +35,8 @@ import {d}, module_D from (relative + '/foo/bar/baz/D')
 absolute path to root of project directory: /path/to/project
 relative path to root of project directory: ../../..
 ```
+
+#### Legal:
+
+* copyright: [Warren Bank](https://github.com/warren-bank)
+* license: [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt)

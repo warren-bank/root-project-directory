@@ -1,7 +1,7 @@
 {
   "name": "@warren-bank/root-project-directory",
   "description": "tiny library to help when importing modules (ES6/CommonJS) with paths relative to the root of the project directory",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "dependencies": {
   },

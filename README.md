@@ -10,7 +10,14 @@ This is a tiny library to help when importing modules (ES6/CommonJS) with paths 
 npm install --save '@warren-bank/root-project-directory'
 ```
 
-#### Usage:
+#### Usage (tl;dr):
+
+```javascript
+const root     = require('@warren-bank/root-project-directory').absolute_root
+const module_A = require(root + '/foo/bar/baz/A')
+```
+
+#### Usage (verbose):
 
 ```javascript
 const root = require('@warren-bank/root-project-directory')
@@ -29,7 +36,7 @@ import * as module_C from (absolute + '/foo/bar/baz/C')
 import {d}, module_D from (relative + '/foo/bar/baz/D')
 ```
 
-#### Sample Output:
+#### Console Logs (from verbose usage example):
 
 ```text
 absolute path to root of project directory: /path/to/project

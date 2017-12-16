@@ -1,0 +1,22 @@
+{
+  "name": "@warren-bank/root-project-directory",
+  "description": "tiny library to help when importing modules (ES6/CommonJS) with paths relative to the root of the project directory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "license": "GPL-2.0",
+  "author": {
+    "name": "Warren R. Bank",
+    "email": "warren.r.bank@gmail.com",
+    "url": "https://github.com/warren-bank"
+  },
+  "homepage": "https://github.com/warren-bank/root-project-directory",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warren-bank/root-project-directory"
+  },
+  "bugs": {
+    "url": "https://github.com/warren-bank/root-project-directory/issues"
+  }
+}

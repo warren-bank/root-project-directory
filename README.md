@@ -44,6 +44,12 @@ relative path to root of project directory: ../../..
 * does __not__ play well with:
   * ES6 modules
   * Webpack
+    * not needed:
+      * [configure](https://webpack.github.io/docs/resolving.html#resolving-a-module-path) `resolve.modules` in `webpack.config.js` to include:
+        * the root project directory
+        * the `node_modules` directory
+      * import (CommonJS and ES6) modules from paths that are relative to any of the configured directories
+      * [_example_](https://moduscreate.com/blog/es6-es2015-import-no-relative-path-webpack/)
 
 #### Legal:
 

@@ -2,7 +2,7 @@
 
 #### Description:
 
-This is a tiny library to help when importing modules (ES6/CommonJS) with paths relative to the root of the project directory.
+This is a tiny library to help when importing CommonJS modules with paths relative to the root of the project directory.
 
 #### Installation:
 
@@ -30,10 +30,6 @@ console.log('relative path to root of project directory:', relative)
 
 const module_A = require(absolute + '/foo/bar/baz/A')
 const module_B = require(relative + '/foo/bar/baz/B')
-
-// reminder: ES6 modules currently require a transpiler
-import * as module_C from (absolute + '/foo/bar/baz/C')
-import {d}, module_D from (relative + '/foo/bar/baz/D')
 ```
 
 #### Console Logs (from verbose usage example):
@@ -42,6 +38,12 @@ import {d}, module_D from (relative + '/foo/bar/baz/D')
 absolute path to root of project directory: /path/to/project
 relative path to root of project directory: ../../..
 ```
+
+#### Issues:
+
+* does __not__ play well with:
+  * ES6 modules
+  * Webpack
 
 #### Legal:
 

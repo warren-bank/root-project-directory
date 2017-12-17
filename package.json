@@ -1,7 +1,7 @@
 {
   "name": "@warren-bank/root-project-directory",
-  "description": "tiny library to help when importing modules (ES6/CommonJS) with paths relative to the root of the project directory",
-  "version": "1.0.4",
+  "description": "tiny library to help when importing CommonJS modules with paths relative to the root of the project directory",
+  "version": "1.0.5",
   "main": "index.js",
   "dependencies": {
   },
@@ -20,18 +20,10 @@
     "url": "https://github.com/warren-bank/root-project-directory/issues"
   },
   "keywords": [
+    "CommonJS",
+    "relative",
     "root",
     "project",
-    "directory",
-    "relative",
-    "absolute",
-    "current",
-    "script",
-    "path",
-    "base",
-    "basepath",
-    "rootpath",
-    "resolve",
-    "normalize"
+    "directory"
   ]
 }
